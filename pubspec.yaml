@@ -1,7 +1,7 @@
 name: search_bar_sample1
-description: "Description here"
+description: "Search Bar Sample View for June"
 #publish_to: 'none'
-#repository: https://github.com/melodysdreamj/juneflow
+repository: https://github.com/juneview-songdo/search_bar_sample1
 
 version: 1.0.0+1
 
