@@ -51,6 +51,19 @@ class NewViewState extends State<NewView> with StateMother {
               },
               // searchResult: /* ... */,
               // Add other search bar properties as needed
+              actions: [
+                const SuperAction(
+                  behavior: SuperActionBehavior.visibleOnUnFocus,
+                  child: Padding(
+                    padding: EdgeInsets.only(left: 20.0),
+                    child: Icon(
+                      Icons.filter_list,
+                      color: CupertinoColors.systemBlue,
+                      size: 25,
+                    ),
+                  ),
+                )
+              ],
             ),
             bottom: SuperAppBarBottom(
               enabled: searchBarFocus,

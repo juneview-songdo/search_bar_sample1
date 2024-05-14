@@ -3,7 +3,7 @@ description: "Search Bar Sample View for June"
 #publish_to: 'none'
 repository: https://github.com/juneview-songdo/search_bar_sample1
 
-version: 1.0.0+1
+version: 1.0.1
 
 environment:
   sdk: '>=3.3.1 <4.0.0'
